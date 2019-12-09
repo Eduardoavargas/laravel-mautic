@@ -71,7 +71,7 @@ class MauticFactory
             }
         }
 
-        return array_only($config, ['version','baseUrl', 'clientKey', 'clientSecret','callback']);
+        return $config;
     }
 
     /**
